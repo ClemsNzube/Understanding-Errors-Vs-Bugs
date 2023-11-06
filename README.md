@@ -17,3 +17,11 @@ Errors are like building blocks in software. They're the mistakes that happen wh
 
   # This code will result in a SyntaxError.
   
+- **Runtime Errors:** These are like unexpected problems that pop up when the software is running. It's like a car suddenly stopping while you're driving. Here's an example:
+
+```python
+def divide(x, y):
+    result = x / y
+    return result
+
+# If you call divide(10, 0), it will result in a ZeroDivisionError.
