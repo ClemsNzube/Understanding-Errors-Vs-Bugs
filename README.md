@@ -123,3 +123,11 @@ Errors and bugs can have a big impact:
 To avoid errors and bugs, here are some tips:
 
 - **Checking the Code:** People who write code should double-check it to catch errors.
+
+- **Testing:** Software creators should test their software thoroughly to find and fix bugs before you use it.
+
+- **Documentation:** Good instructions and notes can help everyone understand how the software works.
+
+- **Talking and Sharing:** Good communication within a team helps avoid misunderstandings and errors.
+
+
