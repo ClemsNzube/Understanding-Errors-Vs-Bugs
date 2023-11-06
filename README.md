@@ -84,6 +84,7 @@ Bugs happen because software is very complex. Sometimes, the different parts of 
 To find and fix errors in software, developers engage in a process akin to proofreading an essay. They meticulously review the code for discrepancies, inefficiencies, or potential issues. In addition to manual review, developers employ specialized tools designed for code analysis. These tools help in spotting mistakes and enhancing code quality.
 
 ### Example of Tools and Techniques:
+
 - **Static Code Analysis:** Developers use tools like "Pylint" for Python or "ESLint" for JavaScript to perform static code analysis. These tools identify issues in the code without executing it. For instance, they can flag variables that are defined but not used or identify potential syntax errors.
 
 - **Code Linters:** Code linters, such as "RuboCop" for Ruby, automatically review code for adherence to coding standards. They help ensure uniform coding practices across a project, which reduces errors related to coding style and standards.
@@ -99,3 +100,6 @@ When addressing bugs in software, software creators take an approach reminiscent
 
 are implemented to ensure software reliability. In addition to testing, developers utilize a range of tools and techniques to pinpoint and resolve problems, especially when the software is actively running.
 
+### Example of Tools and Techniques:
+
+- **Debugging Tools:** Debuggers like "GDB" for C/C++ or "pdb" for Python allow developers to step through code, inspect variables, and identify the root causes of issues. They are particularly useful for finding and fixing runtime errors.
