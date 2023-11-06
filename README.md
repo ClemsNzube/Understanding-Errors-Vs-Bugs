@@ -19,11 +19,27 @@ Errors are like building blocks in software. They're the mistakes that happen wh
   
 - **Runtime Errors:** These are like unexpected problems that pop up when the software is running. It's like a car suddenly stopping while you're driving. Here's an example:
 
-```python
-def divide(x, y):
-    result = x / y
-    return result
+  ```python
+  def divide(x, y):
+      result = x / y
+      return result
 
-# If you call divide(10, 0), it will result in a ZeroDivisionError.```
-```
+  # If you call divide(10, 0), it will result in a ZeroDivisionError.```
+  ```
 - **Logical Errors:** These are more subtle; they don't crash the program, but they lead to incorrect results. It's like following the wrong recipe and ending up with a dish that doesn't taste right. Here's an example:
+
+   ```python
+   def calculate_average(numbers):
+    total = sum(numbers)
+    count = len(numbers)
+    average = total / count  # Logical error
+
+    return average
+
+  # If you calculate the average of [1, 2, 3], it will incorrectly give 2.0 instead of 2.33.
+
+  ```
+
+## What Are Bugs?
+
+Bugs are a bit different. They are problems that show up when you use software, and they can be quite tricky. There are a few types of bugs:
