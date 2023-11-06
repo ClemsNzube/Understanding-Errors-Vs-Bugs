@@ -73,3 +73,9 @@ Bugs are a bit different. They are problems that show up when you use software, 
   # If the user enters malicious input like ' OR '1'='1, it can lead to unauthorized access.
   ```
   This code is vulnerable to SQL injection, where an attacker could manipulate the input to gain unauthorized access to the database.
+
+## Why Do Errors and Bugs Happen?
+
+Errors happen because people sometimes make mistakes when writing the code. It's like when you accidentally type the wrong letter on your keyboard.
+
+Bugs happen because software is very complex. Sometimes, the different parts of the software don't work together perfectly, just like how different instruments in a band can sometimes play out of tune.
