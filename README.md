@@ -83,7 +83,7 @@ Bugs happen because software is very complex. Sometimes, the different parts of 
 ## Finding and Fixing Errors
 To find and fix errors in software, developers engage in a process akin to proofreading an essay. They meticulously review the code for discrepancies, inefficiencies, or potential issues. In addition to manual review, developers employ specialized tools designed for code analysis. These tools help in spotting mistakes and enhancing code quality.
 
-# Example of Tools and Techniques:
+### Example of Tools and Techniques:
 - **Static Code Analysis:** Developers use tools like "Pylint" for Python or "ESLint" for JavaScript to perform static code analysis. These tools identify issues in the code without executing it. For instance, they can flag variables that are defined but not used or identify potential syntax errors.
 
 
