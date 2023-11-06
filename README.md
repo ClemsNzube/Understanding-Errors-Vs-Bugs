@@ -96,5 +96,6 @@ When addressing bugs in software, software creators take an approach reminiscent
 - unit testing
 - integration testing
 - regression testing,
+
 are implemented to ensure software reliability. In addition to testing, developers utilize a range of tools and techniques to pinpoint and resolve problems, especially when the software is actively running.
 
