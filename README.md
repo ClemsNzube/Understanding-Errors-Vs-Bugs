@@ -54,7 +54,7 @@ Bugs are a bit different. They are problems that show up when you use software, 
 
       return total_price
   ```
-In this example, if you have items with prices [10, 15, 20], the total price should be 45, but due to the functional bug, it might show a different value.
+  In this example, if you have items with prices [10, 15, 20], the total price should be 45, but due to the functional bug, it might show a different value.
   
 
 - **Performance Bugs:** Performance bugs slow down the software or make it work too hard. It's like a computer that gets hot and slow when you use it. In web development, a common performance bug is not optimizing images:
@@ -62,6 +62,8 @@ In this example, if you have items with prices [10, 15, 20], the total price sho
   ```html
   <img src="large_image.jpg" alt="A large image">
   ```
+  The use of a large image without proper optimization can result in slow loading times.
+  
 - **Security Bugs:** These are serious. They make software vulnerable to bad people who want to steal your information or break into your computer. A classic security bug is SQL injection. In web applications, user input should be sanitized to prevent unauthorized access:
 
   ```python
