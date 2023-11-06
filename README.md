@@ -86,8 +86,9 @@ To find and fix errors in software, developers engage in a process akin to proof
 ### Example of Tools and Techniques:
 - **Static Code Analysis:** Developers use tools like "Pylint" for Python or "ESLint" for JavaScript to perform static code analysis. These tools identify issues in the code without executing it. For instance, they can flag variables that are defined but not used or identify potential syntax errors.
 
+- **Code Linters:** Code linters, such as "RuboCop" for Ruby, automatically review code for adherence to coding standards. They help ensure uniform coding practices across a project, which reduces errors related to coding style and standards.
 
-
+- **IDE Features:** Integrated Development Environments (IDEs) like Visual Studio Code and PyCharm come equipped with built-in features for code analysis and error detection. For instance, they can underline code segments with errors or suggest improvements as you type.
 
 
 
