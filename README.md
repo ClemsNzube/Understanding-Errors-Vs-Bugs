@@ -44,7 +44,7 @@ Errors are like building blocks in software. They're the mistakes that happen wh
 
 Bugs are a bit different. They are problems that show up when you use software, and they can be quite tricky. There are a few types of bugs:
 
--**Functional Bugs:** These make software not do what it's supposed to do. Think of a cooking recipe that, when followed, doesn't give you the right meal. For instance:
+- **Functional Bugs:** These make software not do what it's supposed to do. Think of a cooking recipe that, when followed, doesn't give you the right meal. For instance:
 
   ```python
   def calculate_total(items):
@@ -53,11 +53,21 @@ Bugs are a bit different. They are problems that show up when you use software, 
           total_price += item.price  # Functional bug, prices not added correctly
 
       return total_price
-  #In this example, if you have items with prices [10, 15, 20], the total price should be 45, but due to the functional bug, it might show a different value.
   ```
+In this example, if you have items with prices [10, 15, 20], the total price should be 45, but due to the functional bug, it might show a different value.
+  
 
--**Performance Bugs:** Performance bugs slow down the software or make it work too hard. It's like a computer that gets hot and slow when you use it. In web development, a common performance bug is not optimizing images:
+- **Performance Bugs:** Performance bugs slow down the software or make it work too hard. It's like a computer that gets hot and slow when you use it. In web development, a common performance bug is not optimizing images:
 
   ```html
   <img src="large_image.jpg" alt="A large image">
   ```
+- **Security Bugs:** These are serious. They make software vulnerable to bad people who want to steal your information or break into your computer. A classic security bug is SQL injection. In web applications, user input should be sanitized to prevent unauthorized access:
+
+  ```python
+  user_input = input("Enter your username: ")
+  query = "SELECT * FROM users WHERE username='" + user_input + "'"
+
+  # If the user enters malicious input like ' OR '1'='1, it can lead to unauthorized access.
+  ```
+  This code is vulnerable to SQL injection, where an attacker could manipulate the input to gain unauthorized access to the database.
