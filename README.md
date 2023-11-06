@@ -103,3 +103,10 @@ are implemented to ensure software reliability. In addition to testing, develope
 ### Example of Tools and Techniques:
 
 - **Debugging Tools:** Debuggers like "GDB" for C/C++ or "pdb" for Python allow developers to step through code, inspect variables, and identify the root causes of issues. They are particularly useful for finding and fixing runtime errors.
+
+- **Profiling Tools:** Profilers such as "Valgrind" for C/C++ or "cProfile" for Python help in identifying performance bottlenecks and memory usage issues. Profiling can pinpoint areas of code that require optimization.
+
+- **Logging and Monitoring Systems:** Tools like "Log4j" for Java or "ELK Stack" (Elasticsearch, Logstash, Kibana) enable developers to track the behavior of their software in real-time. They are vital for identifying runtime issues and performance problems in deployed applications.
+
+These tools and techniques, along with diligent code review and testing, are integral to maintaining the quality and functionality of software, ensuring a robust and reliable user experience.
+
