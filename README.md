@@ -25,5 +25,5 @@ def divide(x, y):
     return result
 
 # If you call divide(10, 0), it will result in a ZeroDivisionError.```
-
+```
 - **Logical Errors:** These are more subtle; they don't crash the program, but they lead to incorrect results. It's like following the wrong recipe and ending up with a dish that doesn't taste right. Here's an example:
