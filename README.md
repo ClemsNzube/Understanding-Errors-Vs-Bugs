@@ -90,5 +90,11 @@ To find and fix errors in software, developers engage in a process akin to proof
 
 - **IDE Features:** Integrated Development Environments (IDEs) like Visual Studio Code and PyCharm come equipped with built-in features for code analysis and error detection. For instance, they can underline code segments with errors or suggest improvements as you type.
 
+## Dealing with Bugs
 
+When addressing bugs in software, software creators take an approach reminiscent of trying out a recipe multiple times to achieve perfection. Thorough testing is essential to identify and rectify issues. Various testing methods, such as:
+- unit testing
+- integration testing
+- regression testing,
+are implemented to ensure software reliability. In addition to testing, developers utilize a range of tools and techniques to pinpoint and resolve problems, especially when the software is actively running.
 
